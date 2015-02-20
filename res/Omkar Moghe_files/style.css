@@ -1,0 +1,26 @@
+#header {
+    font-size: 40px;
+    color: #000000;
+    font-family: "Roboto";
+    font-style: normal;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 15px;
+}
+
+#about {
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    width: 800px;
+}
+
+#links {
+    text-align: center;
+}
+
+#pineapple {
+    position: fixed;
+    bottom: 2;
+    right: 2;
+}
