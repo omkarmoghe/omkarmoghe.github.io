@@ -1,0 +1,32 @@
+#header {
+    font-size: 60px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 4px black;
+    font-family: "Lucida Console";
+    text-align: center;
+    margin-top: 20px;
+}
+
+#video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+#footer {
+    text-align: center;
+    font-family: "Roboto";
+    position: absolute;
+    width: 99%;
+    bottom: 0;
+    height: 60px;
+}
+
+#pineapple {
+    position: fixed;
+    bottom: 2;
+    right: 2;
+}
