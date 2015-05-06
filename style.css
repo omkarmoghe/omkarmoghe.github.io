@@ -1,3 +1,15 @@
+#cover {
+    margin: -8px;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)),
+        url("res/cover.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
 #header {
     font-size: 40px;
     color: #000000;
@@ -5,7 +17,23 @@
     font-style: normal;
     text-align: center;
     line-height: 100%;
-    margin-top: 20px;
+    margin-top: 350px;
+    position: relative;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+#about-me {
+    margin: -8px;
+    margin-top: 761px;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)),
+        url("res/about-me.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 #about {
@@ -13,6 +41,7 @@
     font-family: "Roboto";
     font-style: normal;
     width: 800px;
+    background-color: transparent;
 }
 
 #links {
