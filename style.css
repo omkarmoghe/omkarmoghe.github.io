@@ -1,51 +1,54 @@
-#cover {
-    margin: -8px;
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)),
-        url("res/cover.jpg") no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
+html {
+    background-color: rgb(24,24,24);
+}
+
+body {
+    font-family: Consolas;
+}
+
+a:link {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+}
+
+section {
+    margin: auto;
+    padding: auto;
     width: 100%;
-    position: absolute;
-}
-
-#header {
-    font-size: 40px;
-    color: #000000;
-    font-family: "Roboto";
-    font-style: normal;
     text-align: center;
-    line-height: 100%;
-    margin-top: 350px;
-    position: relative;
-    color: #FFFFFF;
-    background-color: transparent;
 }
 
-#about-me {
-    margin: -8px;
-    margin-top: 761px;
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)),
-        url("res/about-me.jpg") no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+.content {
+    display: table;
+    display: inline-block;
+    vertical-align: top;
 }
 
-#about {
-    text-align: center;
-    font-family: "Roboto";
-    font-style: normal;
-    width: 800px;
-    background-color: transparent;
+.left_column {
+    text-align: right;
+    color: white;
+    padding: 2vh;
 }
 
-#links {
-    text-align: center;
+.right_column {
+    text-align: left;
+    color: rgb(176,176,176);
+    padding: 2vh;
+}
+
+#headshot {
+    margin-top: 40px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+#headshot:hover {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
 }
 
 #pineapple {
@@ -53,3 +56,27 @@
     bottom: 2;
     right: 2;
 }
+
+/* link colors */
+.github {color: #8cc665;}
+.resume {color: #fcc21b;}
+.facebook {color: #3B5998;}
+.twitter {color: #6CB5E8;}
+.linkedin {color: #0077B5;}
+.instagram {color: #D33591;}
+.here {color: #134291;}
+.davra_networks {color: #D87F40;}
+.mhacks {color: #FFE641;}
+.michiganhackers {color: #EF5B2E;}
+.michigansahana {color: #00AFCB;}
+.umich {
+    background-color: #00274C;
+    color: #FFCB0B;
+}
+.java {color: #CB0000;}
+.python {color: #FFE468;}
+.cplusplus {color: #B1B41B;}
+.javascript {color: #9DD4DF;}
+.css {color: #1FA2D9;}
+.html {color: #EE6229;}
+.android {color: #7AC15D;}
