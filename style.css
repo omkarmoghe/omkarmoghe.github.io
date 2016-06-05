@@ -8,6 +8,7 @@ body {
 
 a:link {
     text-decoration: underline;
+    target: "_blank";
 }
 
 a:hover {
