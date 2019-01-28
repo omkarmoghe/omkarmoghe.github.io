@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
 html {
     background-color: rgb(24,24,24);
 }
 
 body {
-    font-family: Consolas;
+    font-family: 'Inconsolata', monospace;
 }
 
 a:link {
