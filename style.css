@@ -26,6 +26,13 @@ section {
     text-align: center;
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .content {
     display: table;
     display: inline-block;
