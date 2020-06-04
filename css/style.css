@@ -48,6 +48,10 @@ pre > code {
     width: 100%;
 }
 
+.container .content img {
+    width: 100%;
+}
+
 .container .content a:link {
     border-bottom: dotted 1px;
     text-decoration: none;
