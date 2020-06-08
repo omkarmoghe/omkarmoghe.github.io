@@ -96,6 +96,11 @@ pre > code {
     -o-transform:rotate(360deg);
 }
 
+::selection {
+    color: rgb(24, 24, 24);
+    background: rgb(240, 240, 240);
+}
+
 /* link colors */
 .projects {color: #EF5B2E;}
 .experience {color: #6296FA;}
