@@ -87,14 +87,11 @@ pre > code {
 
 #headshot {
     margin-top: 10%;
-    -webkit-transition: -webkit-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
 }
 
 #headshot:hover {
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg);
+    transform: rotate(360deg);
 }
 
 ::selection {
@@ -108,7 +105,7 @@ pre > code {
     }
 }
 
-/* link colors */
+/* Colors */
 .projects {color: #EF5B2E;}
 .experience {color: #6296FA;}
 .blog {color: #00ab6b;}
@@ -118,23 +115,15 @@ pre > code {
     background-color: #00274C;
     color: #FFCB0B;
 }
+.copyright {color: rgb(96, 96, 96);}
 
 /* old */
 .facebook {color: #3B5998;}
 .linkedin {color: #0077B5;}
 .instagram {color: #D33591;}
 .here {color: #134291;}
-.davra_networks {color: #D87F40;}
+.davra-networks {color: #D87F40;}
 .mhacks {color: #FFE641;}
-.michiganhackers {color: #EF5B2E;}
-.michigansahana {color: #00AFCB;}
-.java {color: #c19d67;}
-.python {color: #FFE468;}
-.cplusplus {color: #B1B41B;}
-.ruby {color: #9b0c02;}
-.rails {color: #cc0000;}
-.javascript {color: #9DD4DF;}
-.css {color: #1FA2D9;}
-.html {color: #EE6229;}
-.android {color: #7AC15D;}
+.michigan-hackers {color: #EF5B2E;}
+.michigan-sahana {color: #00AFCB;}
 .fisi {color: #FFFFFF;}
