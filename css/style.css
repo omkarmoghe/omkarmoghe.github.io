@@ -42,13 +42,7 @@ pre > code {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    max-width: 90%;
-}
-
-@media (min-width: 800px) {
-    .container .content {
-        max-width: 60%;
-    }
+    max-width: 60%;
 }
 
 .container .content hr {
@@ -106,6 +100,12 @@ pre > code {
 ::selection {
     color: rgb(24, 24, 24);
     background: rgb(240, 240, 240);
+}
+
+@media only screen and (max-width: 800px) {
+    .container .content {
+        max-width: 90%;
+    }
 }
 
 /* link colors */
