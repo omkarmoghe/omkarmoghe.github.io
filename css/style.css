@@ -15,6 +15,7 @@ html {
 body {
     font-family: 'Hack', monospace;
     color: rgb(240, 240, 240);
+    font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,7 +42,13 @@ pre > code {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    max-width: 60%;
+    max-width: 90%;
+}
+
+@media (min-width: 800px) {
+    .container .content {
+        max-width: 60%;
+    }
 }
 
 .container .content hr {
