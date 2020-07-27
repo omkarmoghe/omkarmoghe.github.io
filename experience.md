@@ -2,8 +2,9 @@
 layout: default
 title: Experience
 ---
-<h1 class="experience"> {{ page.title }}</h1>
+<h1 class="experience">{{ page.title }}</h1>
 
-{% for job in site.jobs %}
+{% assign jobs = site.jobs | sort: "order" | reverse %}
+{% for job in jobs %}
   {% include menu_link.html title=job.title url=job.url %}
 {% endfor %}

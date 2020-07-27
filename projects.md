@@ -6,6 +6,7 @@ title: Projects
 
 Cool stuff I'm working on.
 
-{% for project in site.projects %}
+{% assign projects = site.projects | sort: "order" | reverse %}
+{% for project in project %}
   {% include menu_link.html title=project.title url=project.url %}
 {% endfor %}

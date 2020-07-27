@@ -34,10 +34,6 @@ collections:
     output: true
   jobs:
     output: true
-    order:
-      - lendinghome.md
-      - here.md
-      - davra-networks.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -3,6 +3,7 @@ layout: project
 title: "Image EXIF Scrubber"
 github_url: "https://github.com/omkarmoghe/exif-scrubber"
 language: "Python"
+order: 2
 ---
 
 As the George Floyd protests erupt across the country, thousands of images of the events are flooding social media. On Twitter, many are pointing out that the faces of protestors should not be publicized to [protect their identities](https://www.google.com/search?q=ferguson+protestors+killed).
