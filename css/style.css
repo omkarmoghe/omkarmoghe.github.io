@@ -22,8 +22,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
-pre > code {
+code {
     font-family: "Hack", monospace;
+    /* font-size: 16px; */
+    background-color: #011627;
+    color: #82AAFF;
+    border-radius: 3px;
 }
 
 .container {
