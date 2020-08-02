@@ -2,7 +2,9 @@
 layout: project
 title: "MHacks"
 github_url: "https://github.com/mhacks"
-language: "Android, Python"
+languages:
+  - Java (Android)
+  - Python
 order: 1
 ---
 

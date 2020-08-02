@@ -2,7 +2,8 @@
 layout: project
 title: "Image EXIF Scrubber"
 github_url: "https://github.com/omkarmoghe/exif-scrubber"
-language: "Python"
+languages:
+  - Python
 order: 2
 ---
 

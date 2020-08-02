@@ -2,7 +2,8 @@
 layout: project
 title: "Dotfiles"
 github_url: "https://github.com/omkarmoghe/dotfiles"
-language: "ZSH"
+languages:
+  - ZSH
 order: 3
 ---
 
