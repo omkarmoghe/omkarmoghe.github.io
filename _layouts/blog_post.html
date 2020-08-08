@@ -3,11 +3,10 @@ layout: default
 ---
 
 <h1 class="blog">{{ page.title }}</h1>
-
-{{ content }}
-
-<hr />
 <div class="detail">
   <span class="detail-left">✏️ {{ page.date | date: "%Y-%m-%d" }}</span>
   <span class="detail-right">🏷️ {{ page.tags | join: ", " }}</span>
 </div>
+<hr />
+
+{{ content }}

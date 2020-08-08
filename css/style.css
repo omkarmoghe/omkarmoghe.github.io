@@ -24,10 +24,14 @@ h1, h2, h3, h4, h5, h6 {
 
 code {
     font-family: "Hack", monospace;
-    /* font-size: 16px; */
     background-color: #011627;
     color: #82AAFF;
     border-radius: 3px;
+    max-width: 100%;
+}
+
+pre {
+    max-width: 100%;
 }
 
 .container {
@@ -55,7 +59,7 @@ code {
 }
 
 .container .content img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .container .content a:link {

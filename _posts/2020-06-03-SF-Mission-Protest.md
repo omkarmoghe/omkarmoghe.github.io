@@ -2,7 +2,10 @@
 layout: blog_post
 title: "SF Protest Against Police Brutality"
 date: 2020-06-03
-tags: protest blm photography
+tags:
+  - protest
+  - blm
+  - photography
 ---
 
 Incredible showing in Dolores Park & Mission, SF in support of George Floyd, Breonna Taylor, and countless others victims of police brutality. Here are some of my personal favorite signs from the protest.
