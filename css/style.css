@@ -65,7 +65,7 @@ pre {
 .container .content a:link {
     border-bottom: dotted 1px;
     text-decoration: none;
-    color: lightblue;
+    color: inherit;
 }
 
 .container .content a:hover {
