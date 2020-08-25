@@ -8,6 +8,7 @@ order: 4
 ---
 
 TL;DR: [NBA scores in your VSCode status bar](https://marketplace.visualstudio.com/items?itemName=omkarmoghe.nba-ticker).
+![NBA Ticker demo](https://github.com/omkarmoghe/NBA-Ticker/blob/master/images/demo-gif-1.gif)
 
 I switched over to VSCode from Sublime sometime in early 2020 and have been itching to write an extension ever since. Hackable editors are one of my favorite things, mainly because you don't have to sit around hoping new functionality will be added. A majority of my time working is spent in my editor, so naturally I decided to build an extension to lower my productivity.
 
