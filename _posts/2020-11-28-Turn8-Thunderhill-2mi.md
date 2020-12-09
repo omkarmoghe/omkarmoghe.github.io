@@ -36,3 +36,5 @@ Only other Audi happened to be a R8.
 Loved the lighting on these last two, especially this Corvette.
 
 ![Corvette](https://i.imgur.com/3VhDbcK.jpg)
+
+I still gotta upload the GoPro footage for the 2mi runs...
