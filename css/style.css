@@ -93,6 +93,21 @@ pre {
     float: right;
 }
 
+.container .content .tag {
+    width: auto;
+    height: auto;
+    border-radius: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.container .content .with-tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .container .footer {
     justify-self: flex-end;
     max-width: 100%;
@@ -120,9 +135,12 @@ pre {
 }
 
 /* Colors */
-.projects {color: #EF5B2E;}
-.experience {color: #6296FA;}
-.blog {color: #00ab6b;}
+.projects {color:#f1b3f1;}
+.experience {color: #39ffba;}
+.blog {color: #94bfff;}
+.projects_alt {background:#f1b3f1;}
+.experience_alt {background: #39ffba;}
+.blog_alt {background: #94bfff;}
 .github {color: #8cc665;}
 .twitter {color: #6CB5E8;}
 .umich {
