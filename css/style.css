@@ -21,6 +21,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Inconsolata', serif;
+    text-align: center;
 }
 
 code {
@@ -91,10 +92,6 @@ pre {
 
 .container .content .detail-right {
     float: right;
-}
-
-.container .content .menu-link {
-    text-align: center;
 }
 
 .container .content .tag {
