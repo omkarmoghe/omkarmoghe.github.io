@@ -4,7 +4,7 @@ title: "VSCode NBA Ticker"
 github_url: "https://github.com/omkarmoghe/NBA-Ticker"
 languages:
   - Typescript (VSCode Extension)
-order: 4
+order: 5
 ---
 
 **TL;DR** &mdash; [NBA scores in your VSCode status bar](https://marketplace.visualstudio.com/items?itemName=omkarmoghe.nba-ticker).
