@@ -10,3 +10,10 @@ Stuff I'm working on, and stuff I've shipped in the past. Most of these are open
 {% for project in projects %}
   {% include menu_link.html title=project.title url=project.url %}
 {% endfor %}
+
+<div>
+  <img
+    src="http://ghchart.rshah.org/754875/omkarmoghe"
+    alt="@omkarmoghe's GitHub contribution chart"
+  />
+</div>
