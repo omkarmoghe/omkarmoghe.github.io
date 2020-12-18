@@ -7,7 +7,7 @@ languages:
 order: 4
 ---
 
-TL;DR: [NBA scores in your VSCode status bar](https://marketplace.visualstudio.com/items?itemName=omkarmoghe.nba-ticker).
+**TL;DR** &mdash; [NBA scores in your VSCode status bar](https://marketplace.visualstudio.com/items?itemName=omkarmoghe.nba-ticker).
 
 ![NBA Ticker demo](https://imgur.com/9UBEw9f.gif)
 
