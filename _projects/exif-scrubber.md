@@ -7,6 +7,8 @@ languages:
 order: 3
 ---
 
+**TL;DR** &mdash; Remove GPS and other metadata from photographs.
+
 As the George Floyd protests erupt across the country, thousands of images of the events are flooding social media. On Twitter, many are pointing out that the faces of protestors should not be publicized to [protect their identities](https://www.google.com/search?q=ferguson+protestors+killed).
 
 Along with what's visible in the photo, most images taken on modern cameras contain a range of metadata, encoded in the [EXIF](https://www.wikiwand.com/en/Exif) standard. This can include informational data like camera make/model, lens information, or even sensitive data like the exact latitude and longitude the image was taken at.
