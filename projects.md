@@ -13,7 +13,7 @@ Stuff I'm working on, and stuff I've shipped in the past. Most of these are open
 
 <div>
   <img
-    src="http://ghchart.rshah.org/754875/omkarmoghe"
+    src="https://ghchart.rshah.org/754875/omkarmoghe"
     alt="@omkarmoghe's GitHub contribution chart"
   />
 </div>
