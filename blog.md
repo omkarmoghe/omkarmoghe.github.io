@@ -15,7 +15,7 @@ Music, photography, miscellaneous projects, and random thoughts.
 
   <div class="with-tag">
     {% if forloop.first == true %}
-      {% include tag.html title="New" class="blog_alt" %}
+      {% include tag.html title="Latest" class="blog_alt" %}
       &nbsp;
     {% endif %}
     {% include menu_link.html title=post.title url=url %}

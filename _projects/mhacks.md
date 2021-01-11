@@ -5,6 +5,7 @@ github_url: "https://github.com/mhacks"
 languages:
   - Java (Android)
   - Python
+emoji: 〽️
 order: 1
 ---
 

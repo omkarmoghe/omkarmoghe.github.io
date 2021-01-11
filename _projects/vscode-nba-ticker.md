@@ -4,6 +4,7 @@ title: "VSCode NBA Ticker"
 github_url: "https://github.com/omkarmoghe/NBA-Ticker"
 languages:
   - Typescript (VSCode Extension)
+emoji: 🏀
 order: 5
 ---
 

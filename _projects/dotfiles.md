@@ -4,6 +4,7 @@ title: "Dotfiles"
 github_url: "https://github.com/omkarmoghe/dotfiles"
 languages:
   - ZSH
+emoji: ⚙️
 order: 4
 ---
 

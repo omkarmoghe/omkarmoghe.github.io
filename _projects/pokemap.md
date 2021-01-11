@@ -4,6 +4,7 @@ title: "Pokémap"
 github_url: "https://github.com/omkarmoghe/pokemap"
 languages:
   - Java (Android)
+emoji: 🔎
 order: 2
 ---
 

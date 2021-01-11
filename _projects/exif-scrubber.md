@@ -4,6 +4,7 @@ title: "Image EXIF Scrubber"
 github_url: "https://github.com/omkarmoghe/exif-scrubber"
 languages:
   - Python
+emoji: 🎞
 order: 3
 ---
 
