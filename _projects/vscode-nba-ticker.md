@@ -3,9 +3,9 @@ layout: project
 title: "VSCode NBA Ticker"
 github_url: "https://github.com/omkarmoghe/NBA-Ticker"
 languages:
-  - Typescript (VSCode Extension)
+  - TypeScript
 emoji: 🏀
-order: 5
+order: 6
 ---
 
 **TL;DR** &mdash; [NBA scores in your VSCode status bar](https://marketplace.visualstudio.com/items?itemName=omkarmoghe.nba-ticker).
