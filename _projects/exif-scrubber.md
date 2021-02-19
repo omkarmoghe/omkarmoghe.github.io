@@ -5,7 +5,7 @@ github_url: "https://github.com/omkarmoghe/exif-scrubber"
 languages:
   - Python
 emoji: 🎞
-order: 4
+order: 3
 ---
 
 **TL;DR** &mdash; Remove GPS and other metadata from photographs.

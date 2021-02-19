@@ -5,7 +5,7 @@ github_url: "https://github.com/omkarmoghe/NBA-Ticker"
 languages:
   - TypeScript
 emoji: 🏀
-order: 6
+order: 5
 ---
 
 **TL;DR** &mdash; [NBA scores in your VS Code status bar](https://marketplace.visualstudio.com/items?itemName=omkarmoghe.nba-ticker).

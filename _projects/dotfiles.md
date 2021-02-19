@@ -5,7 +5,7 @@ github_url: "https://github.com/omkarmoghe/dotfiles"
 languages:
   - ZSH
 emoji: ⚙️
-order: 5
+order: 4
 ---
 
 Not really a project, but finally got around to adding my [dotfiles](https://wiki.debian.org/DotFiles) to some form of VCS. Excited to not have to email/Slack these to myself from different machines like a caveman.

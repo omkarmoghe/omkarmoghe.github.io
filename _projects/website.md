@@ -14,4 +14,6 @@ The goal of this site is to get me to share projects I'm working on and random t
 
 This website has undergone many re-writes, but the current version is a static site built using Jekyll. The pages are written in HTML/CSS, and most of the content is written in Markdown. All that good stuff served straight from GitHub.
 
+The default theme and stylings are _dark_, but your system can request a _light_ theme.
+
 **Note:** This site uses Google Analytics; feel free to block it if you aren't already.

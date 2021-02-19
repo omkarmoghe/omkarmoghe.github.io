@@ -37,6 +37,8 @@ pre {
     width: 100%;
 }
 
+/* Main container */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -116,6 +118,8 @@ pre {
     overflow: hidden;
 }
 
+/* Headshot animations */
+
 #headshot {
     margin-top: 10%;
     transition: transform .8s ease-in-out;
@@ -130,9 +134,28 @@ pre {
     background: rgb(240, 240, 240);
 }
 
+/* Mobile view */
+
 @media only screen and (max-width: 800px) {
     .container .content {
         max-width: 90%;
+    }
+}
+
+/* Light theme */
+@media (prefers-color-scheme: light) {
+    html {
+        background-color: rgb(240, 240, 240);
+    }
+
+    body {
+        color: rgb(24, 24, 24);
+        font-weight: 500;
+    }
+
+    ::selection {
+        color: rgb(240, 240, 240);
+        background: rgb(24, 24, 24);
     }
 }
 
