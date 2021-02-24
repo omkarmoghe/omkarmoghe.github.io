@@ -10,10 +10,12 @@ I worked on the same team throughout my time at [LendingHome](https://www.lendin
 
 Some of the systems/things I worked on, in no particular order:
 
-- Bank integrations & money movement service
+- Money movement infrastructure
+- Banking integrations
 - [Loan servicing](https://www.investopedia.com/terms/l/loan_servicing.asp) payment infrastructure
 - [Retail investor](https://www.lendinghome.com/users/sign-up/investor) marketplace & products
 - Institutional investor portals & products
+- Loan [securitizations](https://www.wikiwand.com/en/Securitization)
 - Summer intern program (outreach, interviewing, hiring, coordinating)
 - Decomposing a [monolith](https://www.wikiwand.com/en/Monolithic_application) into [services](https://www.wikiwand.com/en/Service-oriented_architecture)
 - Authorization service (early stages)
