@@ -21,4 +21,4 @@ Some of the systems/things I worked on, in no particular order:
 - Authorization service (early stages)
 - Mario Kart Tour (team bonding)
 
-💸
+🏡
