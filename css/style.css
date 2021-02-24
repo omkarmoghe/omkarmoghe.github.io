@@ -153,6 +153,11 @@ pre {
         font-weight: 500;
     }
 
+    code {
+        background-color: #82AAFF;
+        color: #011627;
+    }
+
     ::selection {
         color: rgb(240, 240, 240);
         background: rgb(24, 24, 24);
