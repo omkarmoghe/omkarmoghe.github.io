@@ -22,3 +22,8 @@ Welcome! I'm a software engineer currently based in San Francisco. I studied Com
   &nbsp;
   {% include menu_link.html title="Blog" url="/blog" class="blog" %}
 </div>
+<div class="with-tag">
+  {% include tag.html title="🔗" %}
+  &nbsp;
+  {% include menu_link.html title="Links" url="/links" %}
+</div>
