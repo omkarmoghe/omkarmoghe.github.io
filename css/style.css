@@ -67,6 +67,10 @@ pre {
     width: 100%;
 }
 
+.container .content ul {
+    width: 100%;
+}
+
 .container .content img {
     max-width: 100%;
 }

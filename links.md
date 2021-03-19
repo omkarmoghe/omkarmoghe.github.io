@@ -9,4 +9,4 @@ Twitter: [@omkvr](https://twitter.com/omkvr)
 
 GitHub: [@omkarmoghe](https://github.com/omkarmoghe)
 
-BTC: `14pw4z5RztL54kHhVEz5U4hXZEVBLYu4jX`
+Instagram (🔒): [@moghe_omkar](https://www.instagram.com/moghe_omkar/)

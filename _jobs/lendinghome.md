@@ -21,4 +21,12 @@ Some of the systems/things I worked on, in no particular order:
 - Authorization service (early stages)
 - Mario Kart Tour (team bonding)
 
+And some languages/tools I used:
+
+- Ruby, Rails
+- JavaScript, React
+- PostgreSQL
+- AWS (S3, EC2, SNS, SQS)
+- Splunk, Sentry
+
 🏡
