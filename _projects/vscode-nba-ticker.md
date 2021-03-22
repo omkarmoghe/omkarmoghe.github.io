@@ -10,7 +10,7 @@ order: 5
 
 **TL;DR** &mdash; [NBA scores in your VS Code status bar](https://marketplace.visualstudio.com/items?itemName=omkarmoghe.nba-ticker).
 
-![NBA Ticker demo](https://imgur.com/9UBEw9f.gif)
+![NBA Ticker demo](https://i.imgur.com/EfQzKgb.gif)
 
 ![NBA Ticker detail popup](https://imgur.com/dW8HKoh.png)
 
