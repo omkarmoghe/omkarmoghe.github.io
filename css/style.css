@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: 'Hack';
-    src: url("../fonts/Hack-Regular.ttf");
+    font-family: 'JetBrains Mono';
+    src: url("../fonts/JetBrains-Mono.ttf");
 }
 
 html {
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 code {
-    font-family: "Hack", monospace;
+    font-family: "JetBrains Mono", monospace;
     font-size: 18px;
     background-color: #011627;
     color: #82AAFF;
@@ -160,6 +160,7 @@ pre {
     code {
         background-color: #82AAFF;
         color: #011627;
+        font-weight: normal;
     }
 
     ::selection {
