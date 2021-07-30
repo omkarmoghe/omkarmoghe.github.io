@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: "Project FK7: Rear Sway Bar Install"
+title: "FK7 - Rear Sway Bar Install"
 date: 2021-07-03
 tags:
   - civic
