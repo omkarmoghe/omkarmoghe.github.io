@@ -179,7 +179,9 @@ pre {
 .github {color: #8cc665;}
 .twitter {color: #6CB5E8;}
 .umich {
-    background-color: #00274C;
+    /* background-color: #00274C; */
     color: #FFCB0B;
 }
+.san_francisco {color: #FD5A1E;}
+.sf_49ers {color: #AA0000;}
 .copyright {color: rgb(96, 96, 96);}
