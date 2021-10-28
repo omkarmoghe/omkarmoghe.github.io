@@ -19,8 +19,5 @@ Music, photography, miscellaneous projects, and random thoughts.
       &nbsp;
     {% endif %}
     {% include menu_link.html title=post.title url=url %}
-    {% if post.external_url %}
-      <small class="small">&nbsp;-></small>
-    {% endif %}
   </div>
 {% endfor %}

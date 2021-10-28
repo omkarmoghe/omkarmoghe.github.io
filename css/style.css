@@ -1,11 +1,13 @@
 @font-face {
     font-family: 'Inconsolata';
     src: url("../fonts/Inconsolata.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'JetBrains Mono';
     src: url("../fonts/JetBrains-Mono.ttf");
+    font-display: swap;
 }
 
 html {
