@@ -5,14 +5,17 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-79702115-1');
   </script>
 
   <!-- Highligh JS -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/night-owl.min.css" >
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js" ></script>
-  <script>hljs.highlightAll();</script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/night-owl.min.css" >
+  <script defer src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js" ></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      hljs.highlightAll();
+    });
+  </script>
 
   <!-- Main -->
   <title>{{ page.title }}</title>
