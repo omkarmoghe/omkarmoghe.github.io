@@ -15,7 +15,7 @@ Yo! I'm a software engineer currently based in <span class="san_francisco">S</sp
 <div class="with-tag">
   {% include tag.html title="🦉" %}
   &nbsp;
-  {% include menu_link.html title="Experience" url="/experience" class="experience" %}
+  {% include menu_link.html title="Work" url="/work" class="work" %}
 </div>
 <div class="with-tag">
   {% include tag.html title="✏️" %}
