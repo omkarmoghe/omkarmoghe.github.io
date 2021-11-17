@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Experience
+title: Work
 ---
-<h1 class="experience">{{ page.title }}</h1>
+<h1 class="work">{{ page.title }}</h1>
 
 Places I've worked, and orgs I've been a part of.
 
@@ -10,7 +10,7 @@ Places I've worked, and orgs I've been a part of.
 {% for job in jobs %}
   <div class="with-tag">
     {% if forloop.first == true %}
-      {% include tag.html title="Current" class="experience_alt" %}
+      {% include tag.html title="Current" class="work_alt" %}
       &nbsp;
     {% endif %}
     {% include menu_link.html title=job.title url=job.url %}
