@@ -16,4 +16,4 @@ This website has undergone many re-writes, but the current version is a static s
 
 The default theme and stylings are _dark_, but your system can request a _light_ theme.
 
-**Note:** This site uses Google Analytics; feel free to block it if you aren't already.
+**Note:** This site uses ~~Google Analytics~~ [Goat Counter](https://www.goatcounter.com/) (as of 2021-12-23); feel free to block it if you aren't already.
