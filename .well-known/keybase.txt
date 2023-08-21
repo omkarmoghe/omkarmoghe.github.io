@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/omkr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://omkr.dev
+  * I am omkr (https://keybase.io/omkr) on keybase.
+  * I have a public key with fingerprint 5FB9 F26C 5DF6 26B3 D59A  69BB 1E52 857F 2FC8 58D4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01019f982f31c2a52c1148f5cf9af3fd765be21f969d9ad82bc69f234481fac071ca0a",
+      "fingerprint": "5fb9f26c5df626b3d59a69bb1e52857f2fc858d4",
+      "host": "keybase.io",
+      "key_id": "1e52857f2fc858d4",
+      "kid": "01019f982f31c2a52c1148f5cf9af3fd765be21f969d9ad82bc69f234481fac071ca0a",
+      "uid": "f67ae1726efbc974e64727c9faa38b19",
+      "username": "omkr"
+    },
+    "service": {
+      "hostname": "omkr.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1692654255,
+  "expire_in": 157680000,
+  "prev": "95f7aa5966684f103130d3a93ba508dd8c85f6f2c2bd6db34a3701243d38ba21",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIfAnicrVJJaBRBFJ2JW4yIEjR6E0tRD2Hoqu6q7p5DRFAPrnFBRBLHqq6qSRud
+HrsniWEc3JdIUFHcRUHR4L4cNEpwQwwiKm64BhUxCh5conFFrQ4KHjxal6Jevff+
++59/qWenSEH0Y1H7ogacrY9evbC2KsKfPzyaBczjtSCeBZWi4xJzuAgyiUqXgzjQ
+oAZtaVtI6tBBFCMHQsOS2JE2lbrkJsFMIChtYnObcgsxh9gS6YZhQUkdzYQO1Sgo
+BtJNJYWf9t1URtliyRSLOJhLggjTObYpsRmDAiMLmxJJx8IWN5SwwgtChQrHaCBi
+rqcw9Uh0xPsH/z/nruqwk8SkApqICMkc2zQEMUxkOrakVLcYtENiIPwUnSsU25tb
+6YNcMVBIteuIcKhhF3/9xrioVpq072U8x5uj0IpMJh3EQ1WmNh3SagRL/DZIMDfF
+1fyUolr4geulQBwqppNxQ0dIbESwgTAuBmJ+2vVFwg0Z2CSWpk5YR5WLAxtLk1Js
+E0IsQ0JNh7rGdWrrjGLN4txSQ5REIgcxTjjTDaqbGkSGzlWTFEEQtjQv5YG4rmLS
+pLIM3GSKZqp8AXIXz5d1jkQLIl275IV7FSno3vvPtu3ulR85OKkwdy+3Y7/ZlA3a
+Z5W8GDyxbujIG5dvf1s37NgF7D3Nb4k2jj+8Yn/tqVvTZ82oW/x2b/9sS7RfMm/M
+uPIBU2WsT3zywKZTj9rybh9Y0qf05wxUvm1D7437Zse6jcotXPXhnXzTDCx572XD
+609dpxaePFP4avS7j1Nad5atfjDvSfOP0tTME7ls49nvjjd28/fl8TXvj9Q8/Vxa
+96Lt9ZPklb5byve2sxOtu/Vpd6q6rK2f2cT2Lb9fseduWaS+peXcoW8H+hVNmhy9
+3FjyZbt/63pN7Jk3YtM1fWVJ3wXLhm9t7lGilS3edXwpq7FEa/6SATcv/QCPg6+f
+22qLhgzCK8dOOL2+8y/GS0aV
+=YnrK
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/omkr
+
+==================================================================
