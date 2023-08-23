@@ -1,0 +1,52 @@
+.blog {
+  color: #70a9ff;
+}
+
+.blog_alt {
+  background: #70a9ff;
+}
+
+.copyright {
+  color: rgb(96, 96, 96);
+}
+
+.github {
+  color: #8cc665;
+}
+
+.los_angeles {
+  color: #7ca3dc;
+}
+
+.projects {
+  color: #ec98ec;
+}
+
+.projects_alt {
+  background: #ec98ec;
+}
+
+.san_francisco {
+  color: #FD5A1E;
+}
+
+.sf_49ers {
+  color: #AA0000;
+}
+
+.twitter {
+  color: #6CB5E8;
+}
+
+.work {
+  color: #1fffb0;
+}
+
+.work_alt {
+  background: #1fffb0;
+}
+
+.umich {
+  /* background-color: #00274C; */
+  color: #FFCB0B;
+}

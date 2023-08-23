@@ -21,7 +21,12 @@ body {
     margin: 0px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Inconsolata', serif;
     text-align: center;
 }
@@ -172,18 +177,3 @@ pre {
 }
 
 /* Colors */
-.projects {color:#ec98ec;}
-.work {color: #1fffb0;}
-.blog {color: #70a9ff;}
-.projects_alt {background:#ec98ec;}
-.work_alt {background: #1fffb0;}
-.blog_alt {background: #70a9ff;}
-.github {color: #8cc665;}
-.twitter {color: #6CB5E8;}
-.umich {
-    /* background-color: #00274C; */
-    color: #FFCB0B;
-}
-.san_francisco {color: #FD5A1E;}
-.sf_49ers {color: #AA0000;}
-.copyright {color: rgb(96, 96, 96);}
