@@ -14,6 +14,14 @@
   color: #8cc665;
 }
 
+.gs_warriors_blue {
+  color: #1D428A;
+}
+
+.gs_warriors_gold {
+  color: #ffc72c;
+}
+
 .los_angeles {
   color: #7ca3dc;
 }
@@ -26,7 +34,7 @@
   background: #ec98ec;
 }
 
-.san_francisco {
+.sf_giants {
   color: #FD5A1E;
 }
 
@@ -47,6 +55,5 @@
 }
 
 .umich {
-  /* background-color: #00274C; */
   color: #FFCB0B;
 }
