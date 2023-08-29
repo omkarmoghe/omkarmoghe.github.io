@@ -136,7 +136,8 @@ pre {
     transition: transform .8s ease-in-out;
 }
 
-#headshot:hover {
+#headshot:hover,
+#headshot:active {
     transform: rotate(360deg);
 }
 
