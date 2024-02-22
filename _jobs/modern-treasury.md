@@ -1,11 +1,11 @@
 ---
 layout: job
 title: Modern Treasury
-job_title: Software Engineer
+job_title: Tech Lead
 duration: April 2021 - Current
 order: 5
 ---
 
-Loading...
+In progress...
 
 💸
