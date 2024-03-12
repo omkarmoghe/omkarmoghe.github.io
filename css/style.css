@@ -1,24 +1,24 @@
 @font-face {
-    font-family: 'Inconsolata';
-    src: url("../fonts/Inconsolata.ttf");
-    font-display: swap;
+  font-family: 'Inconsolata';
+  src: url("../fonts/Inconsolata.ttf");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'JetBrains Mono';
-    src: url("../fonts/JetBrains-Mono.ttf");
-    font-display: swap;
+  font-family: 'JetBrains Mono';
+  src: url("../fonts/JetBrains-Mono.ttf");
+  font-display: swap;
 }
 
 html {
-    background-color: rgb(24, 24, 24);
+  background-color: rgb(24, 24, 24);
 }
 
 body {
-    font-family: 'Inconsolata', serif;
-    color: rgb(240, 240, 240);
-    font-size: 20px;
-    margin: 0px;
+  font-family: 'Inconsolata', serif;
+  color: rgb(240, 240, 240);
+  font-size: 20px;
+  margin: 0px;
 }
 
 h1,
@@ -27,152 +27,152 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Inconsolata', serif;
-    text-align: center;
+  font-family: 'Inconsolata', serif;
+  text-align: center;
 }
 
 code {
-    font-family: "JetBrains Mono", monospace;
-    font-size: 18px;
-    background-color: #011627;
-    color: #82AAFF;
-    border-radius: 3px;
-    max-width: 100%;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 18px;
+  background-color: #011627;
+  color: #82AAFF;
+  border-radius: 3px;
+  max-width: 100%;
 }
 
 pre {
-    width: 100%;
+  width: 100%;
 }
 
 /* Main container */
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .container .header {
-    justify-self: flex-start;
+  justify-self: flex-start;
 }
 
 .container .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    max-width: 60%;
-    line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 60%;
+  line-height: 1.4;
 }
 
 .container .content hr {
-    width: 100%;
+  width: 100%;
 }
 
 .container .content p {
-    width: 100%;
+  width: 100%;
 }
 
 .container .content ul {
-    width: 80%;
+  width: 80%;
 }
 
 .container .content img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .container .content a:link {
-    border-bottom: dotted 1px;
-    text-decoration: none;
-    color: inherit;
+  border-bottom: dotted 1px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .container .content a:hover {
-    border-bottom: solid;
+  border-bottom: solid;
 }
 
 .container .content a:visited {
-    color: inherit;
+  color: inherit;
 }
 
 .container .content .detail {
-    width: 100%;
+  width: 100%;
 }
 
 .container .content .detail-left {
-    float: left;
+  float: left;
 }
 
 .container .content .detail-right {
-    float: right;
+  float: right;
 }
 
 .container .content .tag {
-    width: auto;
-    height: auto;
-    border-radius: 4px;
-    padding-left: 3px;
-    padding-right: 3px;
+  width: auto;
+  height: auto;
+  border-radius: 4px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .container .content .with-tag {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .container .footer {
-    justify-self: flex-end;
-    max-width: 100%;
-    overflow: hidden;
+  justify-self: flex-end;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 /* Headshot animations */
 
 #headshot {
-    margin-top: 10%;
-    transition: transform .8s ease-in-out;
+  margin-top: 10%;
+  transition: transform .8s ease-in-out;
 }
 
 #headshot:hover,
 #headshot:active {
-    transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 ::selection {
-    color: rgb(24, 24, 24);
-    background: rgb(240, 240, 240);
+  color: rgb(24, 24, 24);
+  background: rgb(240, 240, 240);
 }
 
 /* Mobile view */
 
 @media only screen and (max-width: 800px) {
-    .container .content {
-        max-width: 90%;
-    }
+  .container .content {
+    max-width: 90%;
+  }
 }
 
 /* Light theme */
 @media (prefers-color-scheme: light) {
-    html {
-        background-color: rgb(240, 240, 240);
-    }
+  html {
+    background-color: rgb(240, 240, 240);
+  }
 
-    body {
-        color: rgb(24, 24, 24);
-        font-weight: 500;
-    }
+  body {
+    color: rgb(24, 24, 24);
+    font-weight: 500;
+  }
 
-    code {
-        background-color: #82AAFF;
-        color: #011627;
-        font-weight: normal;
-    }
+  code {
+    background-color: #82AAFF;
+    color: #011627;
+    font-weight: normal;
+  }
 
-    ::selection {
-        color: rgb(240, 240, 240);
-        background: rgb(24, 24, 24);
-    }
+  ::selection {
+    color: rgb(240, 240, 240);
+    background: rgb(24, 24, 24);
+  }
 }
