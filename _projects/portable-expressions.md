@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "PortableExpressions"
-github_url: "https://github.com/omkarmoghe/portal_expressions"
+github_url: "https://github.com/omkarmoghe/portable_expressions"
 languages:
   - Ruby
 emoji: 🍱
