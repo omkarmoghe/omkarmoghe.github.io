@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "VS Code NBA Ticker"
+title: "NBA Ticker"
 github_url: "https://github.com/omkarmoghe/NBA-Ticker"
 languages:
   - TypeScript
