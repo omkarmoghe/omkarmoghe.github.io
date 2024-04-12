@@ -8,6 +8,6 @@ emoji: 🍱
 order: 7
 ---
 
-**TL;DR** &mdash; JSON serializable expressions and state for dynamically running procedures.
+**TL;DR** &mdash; JSON serializable expressions and state for portable procedures.
 
 Loading...
