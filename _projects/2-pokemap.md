@@ -16,17 +16,17 @@ At the time I was pretty involved in Android development, and decided to create 
 
 Obtaining an API key was the first challenge. Luckily, other users on Reddit and GitHub had traced the Pokémon Go app's network traffic to figure out some key URLs and how the clients communicated with Niantic's servers.
 
-<pre><code class=java>
+```java
 private static final String LOGIN_URL = "https://sso.pokemon.com/sso/login?service=https://sso.pokemon.com/sso/oauth2.0/callbackAuthorize";
 private static final String LOGIN_OAUTH = "https://sso.pokemon.com/sso/oauth2.0/accessToken";
 private static final String PTC_CLIENT_SECRET = "w8ScCUXJQc6kXKw8FiOhd8Fixzht18Dq3PEVkUCP5ZPxtgyWsbTvWHFLm2wNY0JR";
 public static final String CLIENT_ID = "mobile-app_pokemon-go";
 public static final String REDIRECT_URI = "https://www.nianticlabs.com/pokemongo/error";
-</code></pre>
+```
 
 Shout-out to whoever pulled the client secret from a packaged app. With this we could initiate a login request with a Pokémon Go player's legitimate credentials, intercept and follow the redirect ourselves to get a valid API token. From my Android app's `MainActivity`, I invoked a method I called `getToken` which handled this flow.
 
-<pre><code class=java>
+```java
 private void getToken(final String username, final String password) throws IOException {
     // Build the HTTP client with our middleware and config.
     final OkHttpClient client = new OkHttpClient.Builder()
@@ -127,7 +127,7 @@ private void getToken(final String username, final String password) throws IOExc
         }
     });
 }
-</code></pre>
+```
 
 Yeah, I know, Java is annoying to read. You can view the entire `MainActivity` [on GitHub](https://github.com/omkarmoghe/Pokemap/blob/b668cc89e2b8230a2fb19c33fa3bc9aeb5771a53/app/src/main/java/com/omkarmoghe/pokemap/MainActivity.java). At this point, Pokémap was not just an idea &mdash; it was alive. I created the repo and pushed the basic Android app with virtually no user interface, but a working "login" that effectively pretended to be just another Pokémon Go client.
 
