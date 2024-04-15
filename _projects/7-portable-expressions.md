@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Portable Expressions"
+title: "PortableExpressions"
 github_url: "https://github.com/omkarmoghe/portable_expressions"
 languages:
   - Ruby
@@ -12,14 +12,29 @@ order: 7
 
 I wrote `PortableExpressions` because I needed a way to write math expressions that were fully JSON serializable for another project. Although that project got [sidetracked](https://www.commitstrip.com/en/2014/11/25/west-side-project-story), I decided to release the code for building and serializing these expressions as a library.
 
-Because most (all?) math operators in Ruby are implemented as methods, what I really ended up building was a framework to express any procedure or function call. It works great for math, but can do anything that you can describe as a reduction of an array by some method. The elements in the array are the `operands`, and the method is the `operator`. Here, reduction just means `elementN.method(elementN+1).method(elementN+2)...` and is implemented using Ruby's `reduce` (aka `inject`).
+Because most (all?) math operators in Ruby are implemented as methods, what I really ended up building was a framework to express any procedure or function call. It works great for math, but can do anything that you can describe as a reduction of an array by some method. The elements in the array are the `operands`, and the method is the `operator`. Here, reduction just means:
+
+```
+elementN.operator(elementN+1)
+        .operator(elementN+2)
+        .operator(elementN+3)...
+```
+
+...and is implemented using Ruby's `reduce` (aka `inject`).
 
 ```ruby
 # Addition
 [1, 2].reduce(:+) #=> 3
 
+# is equivalent to
+1.+(2) #=> 3
+
 # Multiplication
 [2, 2, 2].reduce(:*) #=> 8
+
+# is equivalent to
+2.*(2)
+ .*(2) #=> 8
 ```
 
 The library is made up of 4 main objects, all of which are fully JSON serializable (and deserializable):
