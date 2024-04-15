@@ -8,11 +8,7 @@ Stuff I'm working on, and stuff I've shipped in the past. Most of these are open
 
 {% assign projects = site.projects | sort: "order" | reverse %}
 {% for project in projects %}
-  <div class="with-tag">
-    {% include tag.html title=project.emoji %}
-    &nbsp;
-    {% include menu_link.html title=project.title url=project.url %}
-  </div>
+  {% include menu_link_with_tag.html tag=project.emoji title=project.title url=project.url %}
 {% endfor %}
 
 <div>

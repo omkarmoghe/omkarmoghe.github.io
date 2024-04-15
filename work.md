@@ -13,6 +13,7 @@ Places I've worked, and orgs I've been a part of.
       {% include tag.html title="Current" class="work_alt" %}
       &nbsp;
     {% endif %}
-    {% include menu_link.html title=job.title url=job.url %}
+    {% include menu_link_with_tag.html tag=job.emoji title=job.title url=job.url %}
+    <!-- {% include menu_link.html title=job.title url=job.url %} -->
   </div>
 {% endfor %}

@@ -4,8 +4,7 @@ title: Modern Treasury
 job_title: Tech Lead
 duration: April 2021 - Current
 order: 5
+emoji: 💸
 ---
 
-In progress...
-
-💸
+Loading...
