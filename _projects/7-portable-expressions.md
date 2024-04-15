@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "PortableExpressions"
+title: "Portable Expressions"
 github_url: "https://github.com/omkarmoghe/portable_expressions"
 languages:
   - Ruby
