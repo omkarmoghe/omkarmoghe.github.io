@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.2.0"
+ruby "3.4.2"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -9,7 +9,7 @@ ruby "3.2.0"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3.0"
+gem "jekyll", "~> 4.4.1"
 gem "webrick"
 gem "liquid"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

@@ -1,21 +1,22 @@
 @font-face {
-  font-family: 'Inconsolata';
+  font-family: "Inconsolata";
   src: url("../fonts/Inconsolata.ttf");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrains Mono';
+  font-family: "JetBrains Mono";
   src: url("../fonts/JetBrains-Mono.ttf");
   font-display: swap;
 }
 
 html {
   background-color: rgb(24, 24, 24);
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Inconsolata', serif;
+  font-family: "Inconsolata", serif;
   color: rgb(240, 240, 240);
   font-size: 20px;
   margin: 0px;
@@ -27,15 +28,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Inconsolata', serif;
+  font-family: "Inconsolata", serif;
   text-align: center;
+  margin: 0.5em 0;
 }
 
 code {
   font-family: "JetBrains Mono", monospace;
   font-size: 16px;
   background-color: #011627;
-  color: #82AAFF;
+  color: #82aaff;
   border-radius: 3px;
   max-width: 100%;
 }
@@ -64,6 +66,7 @@ pre {
   align-items: center;
   max-width: 60%;
   line-height: 1.4;
+  gap: 0.5em;
 }
 
 .container .content hr {
@@ -126,14 +129,14 @@ pre {
 .container .footer {
   justify-self: flex-end;
   max-width: 100%;
-  overflow: hidden;
+  overflow: clip;
 }
 
 /* Headshot animations */
 
 #headshot {
   margin-top: 10%;
-  transition: transform .8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 #headshot:hover,
@@ -166,7 +169,7 @@ pre {
   }
 
   code {
-    background-color: #82AAFF;
+    background-color: #82aaff;
     color: #011627;
     font-weight: normal;
   }
