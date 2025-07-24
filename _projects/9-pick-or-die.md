@@ -5,7 +5,7 @@ live_url: "https://pickordie.com"
 languages:
   - Ruby
 emoji: 🏈
-order: 8
+order: 9
 ---
 
 **TL;DR** &mdash; [A fast, mobile NFL survivor pool that runs in your browser.](https://pickordie.com)

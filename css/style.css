@@ -101,14 +101,12 @@ pre {
 
 .container .content .detail {
   width: 100%;
-}
-
-.container .content .detail-left {
-  float: left;
-}
-
-.container .content .detail-right {
-  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
 }
 
 .container .content .tag {

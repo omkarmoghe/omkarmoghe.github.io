@@ -4,15 +4,21 @@ layout: default
 
 <h1 class="projects">{{ page.emoji }} {{ page.title }}</h1>
 <div class="detail">
-  <span class="detail-left">⌨️ {{ page.languages | join: ", " }}</span>
+  <span class="">⌨️ {{ page.languages | join: ", " }}</span>
   {% if page.live_url %}
-    <span class="detail-right projects">
-      🚀 <a href="{{ page.live_url }}" aria-label="Project home page">Check it out →</a>
-    </span>
-  {% else %}
-    <span class="detail-right github">
-      👾 <a href="{{ page.github_url }}" aria-label="Navigate to source code on GitHub">Source →</a>
-    </span>
+  <span class="projects">
+    🚀
+    <a href="{{ page.live_url }}" aria-label="Project home page">Homepage →</a>
+  </span>
+  {% endif %} {% if page.github_url %}
+  <span class="github">
+    👾
+    <a
+      href="{{ page.github_url }}"
+      aria-label="Navigate to source code on GitHub"
+      >Source →</a
+    >
+  </span>
   {% endif %}
 </div>
 <hr />
