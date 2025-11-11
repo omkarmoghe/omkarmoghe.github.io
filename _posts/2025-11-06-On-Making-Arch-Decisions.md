@@ -4,6 +4,7 @@ title: "On Evaluating Options and Making Decisions"
 date: 2025-11-06
 tags:
   - engineering
+  - team
 ---
 
 _This was originally written for an intern on my team as some general advice/guidance before they started their first project. Some examples and references have been modified to exclude non-public information and make more sense in a general context._
