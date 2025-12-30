@@ -8,7 +8,9 @@ layout: default
   {% if page.live_url %}
   <span class="projects">
     🚀
-    <a href="{{ page.live_url }}" aria-label="Project home page">Homepage →</a>
+    <a href="{{ page.live_url }}" aria-label="Project home page" class="glow"
+      >Homepage →</a
+    >
   </span>
   {% endif %} {% if page.github_url %}
   <span class="github">
@@ -16,6 +18,7 @@ layout: default
     <a
       href="{{ page.github_url }}"
       aria-label="Navigate to source code on GitHub"
+      class="glow"
       >Source →</a
     >
   </span>

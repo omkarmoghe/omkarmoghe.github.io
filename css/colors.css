@@ -58,10 +58,12 @@
   color: #ffcb0b;
 }
 
-.ruby {
-  color: #a91303;
+.glow {
+  text-shadow: 0 0 5px currentColor;
+  font-weight: 400;
 }
 
-.ethereum {
-  color: #81aaf9;
+.glow-h {
+  text-shadow: 0 0 5px currentColor;
+  font-weight: 500;
 }

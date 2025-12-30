@@ -20,6 +20,7 @@ body {
   color: rgb(240, 240, 240);
   font-size: 20px;
   margin: 0px;
+  font-weight: 300;
 }
 
 h1,
@@ -31,6 +32,7 @@ h6 {
   font-family: "Inconsolata", serif;
   text-align: center;
   margin: 0.5em 0;
+  font-weight: 500;
 }
 
 code {

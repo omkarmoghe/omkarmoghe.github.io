@@ -2,16 +2,17 @@
 layout: default
 title: Blog
 ---
-<h1 class="blog"> {{ page.title }}</h1>
+
+<h1 class="blog glow"> {{ page.title }}</h1>
 
 Music, photography, miscellaneous projects, and random thoughts.
 
 {% for post in site.posts %}
-  {% if post.external_url %}
-    {% assign url = post.external_url %}
-  {% else %}
-    {% assign url = post.url %}
-  {% endif %}
+{% if post.external_url %}
+{% assign url = post.external_url %}
+{% else %}
+{% assign url = post.url %}
+{% endif %}
 
   <div class="with-tag">
     {% if forloop.first == true %}
