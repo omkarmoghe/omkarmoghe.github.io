@@ -67,3 +67,14 @@
   text-shadow: 0 0 5px currentColor;
   font-weight: 500;
 }
+
+/* Light theme */
+@media (prefers-color-scheme: light) {
+  .glow {
+    text-shadow: none;
+  }
+
+  .glow-h {
+    text-shadow: none;
+  }
+}
