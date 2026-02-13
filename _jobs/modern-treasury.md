@@ -15,7 +15,8 @@ I've been working on [Payments](https://www.moderntreasury.com/products/payments
   - Int'l rails (cross-border ACH, EFT, SEPA, etc.)
 - Foreign exchange (rate, quotes, contracts)
 - Cryptocurrency and stablecoins (on-ramp, payouts, bridging)
-- Payment service provider
+- Payment service provider (PSP)
+- Double entry accounting/ledgering systems
 - Virtual accounts, wallets
 - Payment origination at scale
-- Data ingestion at scale
+- Receivables at scale
