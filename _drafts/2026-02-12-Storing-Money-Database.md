@@ -6,3 +6,9 @@ tags:
   - engineering
   - payments
 ---
+
+## Storing amounts as cents
+
+## Storing decimals with infinite precision
+
+## Custom currencies
