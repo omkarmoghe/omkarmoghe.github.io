@@ -14,3 +14,5 @@ This is a collection of notes amd learnings on how to design databases and model
 ## Storing decimals with infinite precision
 
 ## Custom currencies
+
+## Working with cryptocurrencies
