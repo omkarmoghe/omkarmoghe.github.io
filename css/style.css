@@ -11,13 +11,14 @@
 }
 
 html {
-  background-color: rgb(24, 24, 24);
+  background-color: #7fad71;
   box-sizing: border-box;
 }
 
 body {
   font-family: "Inconsolata", serif;
   color: rgb(240, 240, 240);
+  background-color: rgb(24, 24, 24);
   font-size: 20px;
   margin: 0px;
   font-weight: 300;
@@ -128,6 +129,13 @@ pre {
 
 .container .footer {
   justify-self: flex-end;
+  background: linear-gradient(
+    to bottom,
+    rgb(24, 24, 24) 0%,
+    rgb(24, 24, 24) 50%,
+    #7fad71 50%,
+    #7fad71 100%
+  );
   max-width: 100%;
   overflow: clip;
 }
@@ -159,12 +167,9 @@ pre {
 
 /* Light theme */
 @media (prefers-color-scheme: light) {
-  html {
-    background-color: rgb(240, 240, 240);
-  }
-
   body {
     color: rgb(24, 24, 24);
+    background-color: rgb(240, 240, 240);
     font-weight: 500;
   }
 
@@ -173,6 +178,15 @@ pre {
     color: #011627;
     font-weight: normal;
   }
+
+  .container .footer {
+  background: linear-gradient(
+    to bottom,
+    rgb(240, 240, 240) 0%,
+    rgb(240, 240, 240) 50%,
+    #7fad71 50%,
+    #7fad71 100%
+  );
 
   ::selection {
     color: rgb(240, 240, 240);
