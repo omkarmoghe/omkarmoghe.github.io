@@ -88,6 +88,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     mercenary (0.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -165,13 +166,14 @@ DEPENDENCIES
   jekyll (~> 4.4.1)
   jekyll-feed (~> 0.17.0)
   liquid
+  logger
   tzinfo
   tzinfo-data
   wdm (~> 0.1.1)
   webrick
 
 RUBY VERSION
-   ruby 3.4.8p72
+   ruby 4.0.6p0
 
 BUNDLED WITH
    2.6.9
